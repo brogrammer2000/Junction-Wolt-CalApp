@@ -11,7 +11,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 
 const PORT = process.env.PORT || 4001;
 const TASTY_API_KEY = process.env.TASTY_API_KEY;

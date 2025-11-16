@@ -199,10 +199,10 @@ function App() {
               gap: "0.4rem",
             }}
           >
-            🍽️ Tasty Calorie Analyzer
+          WoltCalorie Analyzer
           </h1>
           <p style={{ fontSize: "0.95rem", color: "#9ca3af" }}>
-            Upload a food image and get nutrition data via your TastyAPI-powered
+            Upload a food image and get nutrition data via your AI-powered
             backend.
           </p>
         </header>
@@ -359,7 +359,7 @@ function App() {
                         : "0 10px 25px rgba(37, 99, 235, 0.5)",
                     }}
                   >
-                    {isLoading ? "Analyzing..." : "Analyze with TastyAPI"}
+                    {isLoading ? "Analyzing..." : "Analyze with WoltAI"}
                   </button>
                   <button
                     type="button"
@@ -438,7 +438,7 @@ function App() {
           color: "#bbf7d0",
         }}
       >
-        from backend / TastyAPI
+        from AI powered backend
       </span>
     </div>
 
@@ -591,7 +591,7 @@ function App() {
               textAlign: "center",
             }}
           >
-            Drop an image above to get nutrition data from your TastyAPI backend.
+            Drop an image above to get nutrition data from your AI powered backend.
           </p>
         )}
       </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:4001/analyze";
+const API_URL = "https://junction-wolt-calapp.onrender.com/analyze";
+
 
 const getNutritionFromResult = (result) => {
   if (!result) return null;
